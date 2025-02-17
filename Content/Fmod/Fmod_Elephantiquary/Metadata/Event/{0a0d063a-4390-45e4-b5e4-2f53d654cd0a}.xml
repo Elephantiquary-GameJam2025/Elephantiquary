@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0a0d063a-4390-45e4-b5e4-2f53d654cd0a}">
 		<property name="name">
-			<value>Glass_Friction</value>
+			<value>Friction_Glass</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{653df063-6951-420f-80f6-809fa1ed2bfe}</destination>
+			<destination>{9a9f3a8d-2383-440f-9ccf-f581a0158506}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5cc6bef7-1be0-4bdc-a5d3-80bc96085b3e}</destination>
@@ -278,10 +278,10 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.331441998</value>
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{db3bd17a-c2ae-4109-8a57-342473387d8a}">

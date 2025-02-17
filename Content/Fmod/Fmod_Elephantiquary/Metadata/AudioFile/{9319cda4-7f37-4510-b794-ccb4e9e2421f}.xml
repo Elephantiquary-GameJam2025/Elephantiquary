@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9319cda4-7f37-4510-b794-ccb4e9e2421f}">
+		<property name="assetPath">
+			<value>FootstepCarellage-004.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.098027210884353747</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e8df2fab-c918-48c7-8cc8-c0cb6f18e7c2}</destination>
+		</relationship>
+	</object>
+</objects>

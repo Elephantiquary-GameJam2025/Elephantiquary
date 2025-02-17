@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{c731acc5-da65-46e6-bd3b-b600be4a6985}">
+		<property name="name">
+			<value>Rubber_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9ab58980-08d9-4806-bd87-5fd6edae5f96}</destination>
+		</relationship>
+	</object>
+</objects>

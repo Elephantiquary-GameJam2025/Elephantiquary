@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2bc811f1-877f-47d7-b17a-10a5e3f75a95}">
+		<property name="assetPath">
+			<value>MetalSlide1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>15.950566893424035</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e8df2fab-c918-48c7-8cc8-c0cb6f18e7c2}</destination>
+		</relationship>
+	</object>
+</objects>

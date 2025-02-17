@@ -13,10 +13,24 @@
 	</object>
 	<object class="GameParameter" id="{a256ffeb-aa3c-423b-a899-00f422196a45}">
 		<property name="maximum">
-			<value>700</value>
+			<value>1500</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{59da7ee4-b186-4a97-b89f-beca3cfba934}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{59da7ee4-b186-4a97-b89f-beca3cfba934}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.93999999761581421</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
 		</property>
 	</object>
 </objects>

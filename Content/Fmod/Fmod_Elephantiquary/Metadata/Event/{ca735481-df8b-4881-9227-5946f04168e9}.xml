@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ca735481-df8b-4881-9227-5946f04168e9}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>Impact_Glass</value>
 		</property>
@@ -71,7 +74,7 @@
 			<value>5</value>
 		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{695b7ce3-7da4-4736-b907-c6967ffdcc9a}" />
@@ -262,13 +265,16 @@
 		<property name="value">
 			<value>-80</value>
 		</property>
+		<property name="curveShape">
+			<value>0.041687537</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{a7d933ab-3a69-4043-9092-d7841b9f7c9c}">
 		<property name="position">
-			<value>700</value>
+			<value>1500</value>
 		</property>
 		<property name="value">
-			<value>-5</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{be50c4c0-42af-4c76-bf1d-2bee9b1d76cb}">
@@ -281,7 +287,7 @@
 	</object>
 	<object class="AutomationPoint" id="{77f55585-112b-4623-a569-ab7fa50d02d5}">
 		<property name="position">
-			<value>700</value>
+			<value>1500</value>
 		</property>
 		<property name="value">
 			<value>0</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0a0d063a-4390-45e4-b5e4-2f53d654cd0a}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>Friction_Glass</value>
 		</property>
@@ -69,7 +72,7 @@
 			<value>5</value>
 		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{6a7a2bee-aee1-4705-ba87-36aec51f9a2b}" />
@@ -268,7 +271,6 @@
 		<relationship name="automationPoints">
 			<destination>{55319cc5-5c21-439d-8c39-bf059e297153}</destination>
 			<destination>{fa41ad0f-bc1c-447c-b8e4-af8e473605b3}</destination>
-			<destination>{d8b22e5a-2b7c-4861-b77b-345c03c03cde}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8514017e-43c1-421b-b6ad-bb9249d7f4ec}" />
@@ -286,7 +288,7 @@
 	</object>
 	<object class="AutomationPoint" id="{db3bd17a-c2ae-4109-8a57-342473387d8a}">
 		<property name="position">
-			<value>700</value>
+			<value>250</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -300,20 +302,12 @@
 			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>1</value>
+			<value>-0.607922435</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fa41ad0f-bc1c-447c-b8e4-af8e473605b3}">
 		<property name="position">
-			<value>700</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{d8b22e5a-2b7c-4861-b77b-345c03c03cde}">
-		<property name="position">
-			<value>380</value>
+			<value>1500</value>
 		</property>
 		<property name="value">
 			<value>0</value>

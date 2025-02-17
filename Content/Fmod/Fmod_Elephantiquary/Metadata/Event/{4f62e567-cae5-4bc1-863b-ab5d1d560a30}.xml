@@ -8,7 +8,7 @@
 			<value>Grab_Object</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{50f9953d-544a-4d35-b50a-b9a274d0294d}</destination>
@@ -59,7 +59,14 @@
 			<destination>{95999cbb-8456-4e6e-ba2a-9be529a86cd2}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1a1b5803-13d6-41b8-a23f-987e4ea9abc5}" />
+	<object class="EventAutomatableProperties" id="{1a1b5803-13d6-41b8-a23f-987e4ea9abc5}">
+		<property name="minimumDistance">
+			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{0ef6f3df-a177-4b36-ab6a-a0c856bf8cc0}" />
 	<object class="GroupTrack" id="{a5d377c0-9b73-4bbd-b850-c3abd7d0450d}">
 		<relationship name="modules">
@@ -76,7 +83,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{a9911477-f436-4797-97ff-63af775dde58}">
 		<property name="volume">
-			<value>-1</value>
+			<value>-3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{922d5621-5bae-4ea3-b341-20787094c130}</destination>
@@ -119,6 +126,7 @@
 	<object class="MixerBusEffectChain" id="{922d5621-5bae-4ea3-b341-20787094c130}">
 		<relationship name="effects">
 			<destination>{9875e992-d3d9-4693-a6ae-93e30854df21}</destination>
+			<destination>{bf9c167e-c543-497c-8e70-28f4cef404c8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa90a07d-6e52-4abb-b2db-156d6e1b48b0}" />
@@ -130,5 +138,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{f52499c6-5ac2-4f32-bcc5-78f10fd72a81}" />
 	<object class="MixerBusFader" id="{9875e992-d3d9-4693-a6ae-93e30854df21}" />
+	<object class="SpatialiserEffect" id="{bf9c167e-c543-497c-8e70-28f4cef404c8}" />
 	<object class="MixerBusFader" id="{50f83a52-61bd-404a-96de-95790a8fc751}" />
 </objects>

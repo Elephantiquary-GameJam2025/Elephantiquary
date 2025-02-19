@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{08bf5871-5346-4730-8d89-95f7204ebebd}">
+		<property name="assetPath">
+			<value>Wood, Impact, Panel, Thin, Plywood, Lean Against Wall 01 SND38196.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.72418749999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e8df2fab-c918-48c7-8cc8-c0cb6f18e7c2}</destination>
+		</relationship>
+	</object>
+</objects>

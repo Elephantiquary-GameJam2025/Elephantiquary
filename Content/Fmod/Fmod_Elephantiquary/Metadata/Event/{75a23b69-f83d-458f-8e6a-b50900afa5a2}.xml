@@ -63,6 +63,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4a3a8ac8-1780-4877-9342-4c5ccaac8eca}">
+		<property name="minimumDistance">
+			<value>3.20000005</value>
+		</property>
 		<property name="maximumDistance">
 			<value>65</value>
 		</property>
@@ -111,6 +114,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{6de29acd-f610-4e61-92b9-d6cdfd4ae2c9}" />
 	<object class="MultiSound" id="{665a6ad0-a573-4f63-82da-a31987e14ceb}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{d2bd3ddf-7d8a-4580-a4ef-895a304808c4}</destination>
 		</relationship>
@@ -139,9 +145,6 @@
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
 		<relationship name="modulators">
 			<destination>{266dca48-09b8-4dc8-8401-7118f986920a}</destination>
 		</relationship>
@@ -166,7 +169,7 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-4</value>
+			<value>-15</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{44061ee8-efa8-4268-b2fc-26443599837e}</destination>
@@ -215,6 +218,7 @@
 		<relationship name="effects">
 			<destination>{71e24983-9593-4751-bf6a-ada6d8f9f37d}</destination>
 			<destination>{3c92acd2-d350-4abd-9a2b-05a5bd8dc171}</destination>
+			<destination>{447bdb33-ff94-4b52-826a-993f6079f664}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0fc149ee-316b-438a-bebf-7b73a386b3e9}" />
@@ -524,5 +528,6 @@
 	<object class="MixerBusPanner" id="{30968339-cb7e-40f6-8a4b-12a25abf25c5}" />
 	<object class="MixerBusFader" id="{71e24983-9593-4751-bf6a-ada6d8f9f37d}" />
 	<object class="SpatialiserEffect" id="{3c92acd2-d350-4abd-9a2b-05a5bd8dc171}" />
+	<object class="LoudnessMeter" id="{447bdb33-ff94-4b52-826a-993f6079f664}" />
 	<object class="MixerBusFader" id="{9884f5e6-f79b-41f2-9808-71276f33cb17}" />
 </objects>

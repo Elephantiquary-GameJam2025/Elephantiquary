@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{9b3df4d6-c301-49a3-a65a-e21c91af0d08}">
+		<property name="name">
+			<value>Gnome_Impact</value>
+		</property>
+		<relationship name="folder">
+			<destination>{240868d6-9f58-4713-8dcb-a950c900758d}</destination>
+		</relationship>
+	</object>
+</objects>

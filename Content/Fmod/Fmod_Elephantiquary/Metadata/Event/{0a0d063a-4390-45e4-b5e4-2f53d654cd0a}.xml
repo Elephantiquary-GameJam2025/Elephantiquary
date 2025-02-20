@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{9a9f3a8d-2383-440f-9ccf-f581a0158506}</destination>
+			<destination>{de4d7c57-e8d6-4d5f-b724-39a8cbc49857}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5cc6bef7-1be0-4bdc-a5d3-80bc96085b3e}</destination>
@@ -190,6 +190,9 @@
 		</property>
 		<property name="startOffset">
 			<value>49.5</value>
+		</property>
+		<property name="pitch">
+			<value>1</value>
 		</property>
 		<property name="looping">
 			<value>true</value>

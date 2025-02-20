@@ -113,7 +113,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>9.5</value>
+			<value>5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -133,7 +133,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>9.5</value>
+			<value>5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -156,7 +156,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -179,7 +179,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -202,7 +202,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>10</value>
+			<value>4.5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
@@ -225,7 +225,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>9.5</value>
+			<value>5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>

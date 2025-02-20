@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{31727bff-4464-4da4-baaa-7d4b01a395b4}">
+		<property name="name">
+			<value>MusicLowPass</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b2aa2543-abfb-4b32-8576-68fce975f741}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3c70da5e-f08a-4bfc-8b68-a095ae351fdd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3c70da5e-f08a-4bfc-8b68-a095ae351fdd}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{50af2757-86da-4dc5-8e8a-c03d310f2792}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{50af2757-86da-4dc5-8e8a-c03d310f2792}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

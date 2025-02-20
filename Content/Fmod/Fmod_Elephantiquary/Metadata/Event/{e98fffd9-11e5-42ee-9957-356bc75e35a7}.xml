@@ -61,7 +61,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{4eced705-6274-46c4-abcd-55fca206904c}">
 		<property name="maximumDistance">
-			<value>15</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e6ac2d65-1469-4956-ac66-9fe82f670175}" />
@@ -83,7 +83,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{32c2390d-a51d-40dc-8063-fbed2a7f03b0}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-3.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2fb09497-cea5-4d06-94ec-4ac6242cb060}</destination>
@@ -153,9 +153,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{a05bc0b0-9155-4fbb-b65a-3997a8c58da6}" />
 	<object class="ThreeEQEffect" id="{a5ee3cb7-9b54-45f2-8aaa-7b100a751f91}">
-		<property name="lowGain">
-			<value>4</value>
-		</property>
 		<property name="midGain">
 			<value>-8</value>
 		</property>

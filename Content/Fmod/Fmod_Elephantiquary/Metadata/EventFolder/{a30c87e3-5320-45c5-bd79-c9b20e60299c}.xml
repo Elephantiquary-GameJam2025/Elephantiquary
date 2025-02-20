@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{a30c87e3-5320-45c5-bd79-c9b20e60299c}">
+		<property name="name">
+			<value>Clock_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{372692dd-06c3-486f-9217-1702f0451c8b}</destination>
+		</relationship>
+	</object>
+</objects>

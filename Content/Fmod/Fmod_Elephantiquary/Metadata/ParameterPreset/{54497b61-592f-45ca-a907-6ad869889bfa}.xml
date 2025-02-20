@@ -27,7 +27,7 @@
 			<value>cursorPosition</value>
 		</property>
 		<property name="speedDescending">
-			<value>1.3999999761581421</value>
+			<value>1</value>
 		</property>
 		<property name="asymmetric">
 			<value>true</value>

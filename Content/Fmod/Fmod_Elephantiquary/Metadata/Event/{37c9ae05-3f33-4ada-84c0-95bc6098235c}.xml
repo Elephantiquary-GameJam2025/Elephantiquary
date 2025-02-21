@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{37c9ae05-3f33-4ada-84c0-95bc6098235c}">
-		<property name="color">
-			<value>Yellow</value>
-		</property>
 		<property name="name">
 			<value>Order_Completed</value>
 		</property>
@@ -85,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fc7dc5d9-7c8a-4f60-9727-63513df190e7}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d28748fc-afeb-4033-9ffe-4f58cf494c9f}</destination>
 		</relationship>

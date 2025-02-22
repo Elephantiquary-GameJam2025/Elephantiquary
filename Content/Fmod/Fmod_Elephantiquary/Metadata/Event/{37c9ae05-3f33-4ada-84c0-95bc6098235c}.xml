@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{37c9ae05-3f33-4ada-84c0-95bc6098235c}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Order_Completed</value>
 		</property>
@@ -54,7 +57,7 @@
 			<destination>{9b90999f-8549-4177-9638-bf4d59ccf111}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{95999cbb-8456-4e6e-ba2a-9be529a86cd2}</destination>
+			<destination>{834fb996-2d0c-425e-af3f-c84ebb140217}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{313cad94-94fa-412f-8020-593739c2063f}" />

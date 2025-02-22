@@ -210,7 +210,6 @@
 		<relationship name="automationPoints">
 			<destination>{0a4c5eab-9d87-4860-ac49-16f5a4b04831}</destination>
 			<destination>{4fff21a3-173b-445a-a836-95e0551467d7}</destination>
-			<destination>{830acd4d-ceb6-41b5-ac1d-200fd9ee95ce}</destination>
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{695d533a-55c5-405a-9650-021e911c7a6d}">
@@ -285,14 +284,6 @@
 	<object class="AutomationPoint" id="{4fff21a3-173b-445a-a836-95e0551467d7}">
 		<property name="position">
 			<value>1500</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{830acd4d-ceb6-41b5-ac1d-200fd9ee95ce}">
-		<property name="position">
-			<value>417.37287900402339</value>
 		</property>
 		<property name="value">
 			<value>0</value>

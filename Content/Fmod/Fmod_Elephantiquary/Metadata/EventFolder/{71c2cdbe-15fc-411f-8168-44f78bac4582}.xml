@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{71c2cdbe-15fc-411f-8168-44f78bac4582}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>MagneticCompass_Impact</value>
+		</property>
+		<relationship name="folder">
+			<destination>{38009676-848a-474f-84e4-5e2e68f83964}</destination>
+		</relationship>
+	</object>
+</objects>

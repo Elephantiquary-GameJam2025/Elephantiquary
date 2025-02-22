@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{eb451148-0581-4b30-8e1d-0d08a8c15feb}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>ShellFish_Impact</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0e5bc11a-4701-4724-b017-a02e0833c8e5}</destination>
+		</relationship>
+	</object>
+</objects>

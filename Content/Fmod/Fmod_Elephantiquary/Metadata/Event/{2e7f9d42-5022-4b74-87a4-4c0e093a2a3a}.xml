@@ -44,6 +44,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{3774cd67-f379-4a5f-ade1-a9b47f615884}">
+		<relationship name="modules">
+			<destination>{d8938f18-1a32-40b2-b8b2-93419c2432a1}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{989c7fb1-d37a-4a9d-aba7-e0e42d1bb934}</destination>
 		</relationship>
@@ -72,6 +75,7 @@
 	<object class="Timeline" id="{c193fc1c-5efb-4330-88c0-9d72bddfe9ad}">
 		<relationship name="modules">
 			<destination>{a5aff43d-bb23-4b66-90d3-55e2b8185113}</destination>
+			<destination>{d8938f18-1a32-40b2-b8b2-93419c2432a1}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{297943f9-913c-492e-8778-dc85c7628c25}</destination>
@@ -92,6 +96,20 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c3b3c3a2-9aef-494b-88ee-78944f062d9a}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{d8938f18-1a32-40b2-b8b2-93419c2432a1}">
+		<property name="length">
+			<value>17.454535147392289</value>
+		</property>
+		<property name="commandType">
+			<value>1</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{67a27fdf-9932-4ca7-a379-743c069468e9}</destination>
+		</relationship>
+		<relationship name="commandTarget">
+			<destination>{2e7f9d42-5022-4b74-87a4-4c0e093a2a3a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{2e7e69fd-1dbc-4ccd-b07a-00cc27aee7df}">
@@ -162,6 +180,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dd6cbe19-6876-47c0-8082-d3edd09752dc}" />
+	<object class="ParameterCondition" id="{67a27fdf-9932-4ca7-a379-743c069468e9}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{f5eb54c1-198a-45df-953b-4dd8737a3ada}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{c2e5de16-2e35-4095-9db0-901c011b49a7}" />
 	<object class="MixerBusEffectChain" id="{b03ef3a5-26c4-475d-9710-d459c83c302a}">
 		<relationship name="effects">

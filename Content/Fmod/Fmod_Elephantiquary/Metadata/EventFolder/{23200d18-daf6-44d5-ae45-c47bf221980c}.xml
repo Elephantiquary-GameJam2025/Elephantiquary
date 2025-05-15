@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{23200d18-daf6-44d5-ae45-c47bf221980c}">
+		<property name="name">
+			<value>Anvil_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7e4147b2-aedf-4156-a781-7706d3b80820}</destination>
+		</relationship>
+	</object>
+</objects>

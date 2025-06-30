@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{202087c8-627c-4605-a3f6-dbcfda79ba7c}">
+		<property name="name">
+			<value>KnightArmor_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bea5df76-eb24-4dc7-a755-1ce8eea2a1ad}</destination>
+		</relationship>
+	</object>
+</objects>

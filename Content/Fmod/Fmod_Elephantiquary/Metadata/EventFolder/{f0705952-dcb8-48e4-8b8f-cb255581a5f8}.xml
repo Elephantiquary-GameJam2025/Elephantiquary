@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{f0705952-dcb8-48e4-8b8f-cb255581a5f8}">
+		<property name="name">
+			<value>Mace_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7dd404d7-780f-42ca-988a-f367ed10808c}</destination>
+		</relationship>
+	</object>
+</objects>

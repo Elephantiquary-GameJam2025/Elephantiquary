@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EventFolder" id="{f0705952-dcb8-48e4-8b8f-cb255581a5f8}">
+	<object class="EventFolder" id="{0564a6bc-73b2-40c0-a2d0-bfcdb06cceef}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>Mace_Friction</value>
+			<value>Oar_Impact</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7dd404d7-780f-42ca-988a-f367ed10808c}</destination>
+			<destination>{3fb04b1e-b8ef-4e3f-bfae-607429a587d8}</destination>
 		</relationship>
 	</object>
 </objects>

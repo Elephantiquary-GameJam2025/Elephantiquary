@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{4a81c919-4671-47ed-a8e5-b2c603ddbc23}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>ShellMusicBox_Friction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bad53a09-4330-44c2-b2b5-4f3937975783}</destination>
+		</relationship>
+	</object>
+</objects>

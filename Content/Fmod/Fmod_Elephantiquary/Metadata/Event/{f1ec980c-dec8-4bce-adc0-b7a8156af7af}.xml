@@ -76,6 +76,9 @@
 		<property name="maximumDistance">
 			<value>50</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>1000</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{0f134e4d-8dce-41bc-bf0f-4e9989cb5dd2}" />
 	<object class="GroupTrack" id="{f6fc786f-4b8d-4d0c-854f-ebd4f7e65a56}">
@@ -121,6 +124,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{38d8fda3-998b-4f82-b3d7-311cb5e5b4d4}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{2e0e9723-613c-441f-a682-bec4723eef7f}</destination>
 			<destination>{d90fbbb4-467f-450c-8560-e465379853ff}</destination>
